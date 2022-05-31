@@ -1,6 +1,10 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card {
@@ -40,13 +44,13 @@ body {
 }
 
 .main-photo-overlay-primary {
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsla(178, 100%, 50%, 0.5);
     border-radius: 10px;
 } 
 
 
 .main-photo-overlay:hover {
-    opacity: 0.7;
+    opacity: 1;
     cursor: pointer;
 }
 
